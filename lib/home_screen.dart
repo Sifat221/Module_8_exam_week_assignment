@@ -16,7 +16,6 @@ class HomeScreen extends StatelessWidget {
             children: [
               SizedBox(height: 10),
 
-              // Profile Card
               Container(
                 width: double.infinity,
                 padding: EdgeInsets.all(18),
@@ -170,7 +169,6 @@ class HomeScreen extends StatelessWidget {
 
               SizedBox(height: 15),
 
-              // Interests Heading
               Row(
                 children: [
                   Expanded(
@@ -201,11 +199,9 @@ class HomeScreen extends StatelessWidget {
 
               SizedBox(height: 8),
 
-              // Two Interest Cards
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Travel Card
                   Expanded(
                     child: SizedBox(
                       height: 170,
@@ -279,7 +275,6 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
 
-                  // Photography Card
                   Expanded(
                     child: SizedBox(
                       height: 170,
